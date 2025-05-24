@@ -35,6 +35,13 @@ npm run build
 
 Each app can be run individually using `npm --workspace <path> run dev`.
 
+## Styling with Tailwind CSS
+
+The React client comes preconfigured with [Tailwind CSS](https://tailwindcss.com).
+Global styles live in `apps/web/src/index.css` and are imported in
+`apps/web/src/main.tsx`. Feel free to customize the Tailwind configuration in
+`apps/web/tailwind.config.cjs`.
+
 ## Environment Variables
 
 Copy `.env.example` to `.env` and adjust the values for your local setup.
